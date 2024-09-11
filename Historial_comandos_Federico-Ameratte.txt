@@ -1,0 +1,46 @@
+cd proc
+ls -a
+cd proc
+cd /proc/
+cpu info grep 
+cpuinfo grep 
+cd ..
+ls -a
+cd
+cd repogit/
+cd TP_AySO/
+ls -a
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+gi commit -m "feat: Añadiendo información de CPU"
+git commit -m "feat: Añadiendo información de CPU"
+man grep
+man sort
+grep -v "/nologin" /etc/passwd | sort -t: -k2 | head -n 10 > lista_ordenada
+cat lista_ordenada 
+rm lista_ordenada 
+cat lista_ordenada 
+grep -v "/nologin" /etc/passwd | cut -d: -f1,7 | sort -t: -k2 | head -n 10 > lista_ordenada
+cat lista_ordenada 
+rm lista_ordenada 
+grep -v "/nologin" /etc/passwd | sort -t: -k2 | head -n 10 > lista_ordenada
+cat lista_ordenada 
+git add . 
+git commit -m "ADD: Listado de usuarios ordenada"
+echo "tcpdump" > comando_dump_net
+cat comando_dump_net 
+git add . 
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat <<FIN>> README.md
+Alumno: Federico-Ameratte
+División: 318
+Turno: TN
+FIN
+
+ls -a
+cat README.md 
+git add . 
+got commit -m "feat: Añadiendo datos personales"
+git commit -m "feat: Añadiendo datos personales"
+history -a
